@@ -1,0 +1,23 @@
+#winner{
+
+    width: 100%;
+    /*margin-left: 2%;
+    margin-right: 2%; */
+    font-size: 400px;
+    text-align: center;
+    background-color: cornflowerblue;
+
+
+}
+
+button{
+    position: absolute;    
+    height: 80px;
+    width: 160px;
+    color: darkcyan;
+    font-size: 25px;
+    font-family: monospace ;
+    font-style: initial;
+    margin: auto;
+
+}
