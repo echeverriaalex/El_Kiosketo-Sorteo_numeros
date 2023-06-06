@@ -19,15 +19,15 @@ header{
 }
 
 .logo{
-    width: 40%;
-    margin: 5px auto;
-    /*background: rgba(53, 9, 9, 0.7);*/
-   
+    width: 80%;
+    margin: 0px auto;
+    height: 220px;
 }
 
-img{
+.logo-principal{
     display: block; /* para poder centrar la imagen*/
-    width: 300px;
+    width: 350px;
+    height: 220px;
     margin: auto;
 }
 
@@ -85,7 +85,7 @@ button{
     display: block;
     border-radius: 15px;
     margin-top: 200px;
-    height: 80px;
+    height: 60px;
     width: 400px;
     font-size: 25px;
     font-weight: bolder;
@@ -98,6 +98,12 @@ button{
 button:active{
     transition: 1s all;
     transform: rotate(360deg);
+}
+
+.numSorteados{
+
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .sorteados{
@@ -131,17 +137,20 @@ textarea{
 footer{
     background: linear-gradient(rgba(107, 4, 224, 0.664), rgba(156, 7, 243, 0.7));
     margin-top: auto;
+    padding-bottom: 10px;
 }
 
-.logo-footer{
-    width: 200px;
+.logo-footer{ 
+    display: block; /* para poder centrar la imagen*/
+    width: 150px;
+    margin: auto;
 }
 
-.copyright{
+.copyright, .developer{
     color: white;
     text-align: center;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 940px){
@@ -152,11 +161,13 @@ footer{
     }
 
     .logo{
-        width: 50%;
+        width: 70%;
+        height: 220px;
         margin: 5px auto;
+
     }
 
-    img{
+    .logo-principal{
         display: block; /* para poder centrar la imagen*/
         width: 100%;
         margin: auto;
