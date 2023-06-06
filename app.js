@@ -14,7 +14,6 @@ function saveWinner(newWinner){
 }
 
 function checkExist(number){
-
     console.log("\n existe --->  " + drawnNumbers.includes(number));
 }
 
@@ -23,11 +22,11 @@ function sortear(){
     let numWin = getNumberRandom(max);
     console.log(numWin);
     saveWinner(numWin);
-
     checkExist(numWin);
 
-    document.getElementById("winner").innerHTML = numWin;
-
+    document.getElementById("mensaje").innerHTML = "El numero sorteado es ...";
+    document.getElementById("numberWinner").value = numWin;
+    document.getElementById("numSorteados").innerHTML = "Los numeros sorteados anteriormente: ";
+    document.getElementById("listaSorteados").value = drawnNumbers;
     console.log(drawnNumbers);
-    
 }
